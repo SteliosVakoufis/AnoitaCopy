@@ -8,7 +8,7 @@ function preload(){
 function setup() {
 	createCanvas(300, 300);
 
-	canvasIMG = createImage(width, height);
+	canvasIMG = createImage(300, 300);
 
 	//LOAD ALL POSSIBLE COLORS AND BEHAVIORS
 	for (let i = 0; i < Object.keys(ids).length; i++){
